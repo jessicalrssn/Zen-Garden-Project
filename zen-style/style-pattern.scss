@@ -7,15 +7,15 @@
   box-sizing: border-box;
 }
 html {
-  background-color: $background-color;
+  background-color: $light-blue;
   padding: 5%;
 }
 
 body {
-  font-family: $fonts-body;
+  font-family: $body-font;
   font-size: 85%;
-  color: $text-dark;
-  background-color: $primary;
+  color: $dark-blue;
+  background-color: white;
   margin: 0;
   padding: 1em;
 }
@@ -42,25 +42,21 @@ section {
   border: 1px solid;
 }
 .primary {
-  background-color: $primary;
+  background-color: $light-blue;
 }
 .accent1 {
-  background-color: $accent1;
+  background-color: $yellow;
 }
 .accent2 {
-  background-color: $accent2;
+  background-color: $pink;
 }
-.text-dark {
-  background-color: $text-dark;
+.accent3 {
+  background-color: $dark-blue;
 }
 .element {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
 }
-.uppercase {
-  @include atoms.uppercase;
-}
-.uppercase-light {
-  @include atoms.uppercase($text-light);
-}
+
+
