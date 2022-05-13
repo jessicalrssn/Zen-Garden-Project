@@ -30,6 +30,10 @@ h3 {
   font-family: "Playfair Display", serif;
 }
 
+.element.accent3 {
+  color: white;
+}
+
 h4 {
   font-size: 1.5em;
   font-weight: 200;
@@ -64,7 +68,7 @@ a:hover {
 }
 
 html {
-  background-color: #84d9d9;
+  background-color: #white;
   padding: 5%;
 }
 
@@ -75,6 +79,9 @@ body {
   background-color: white;
   margin: 0;
   padding: 1em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  line-height: normal;
 }
 
 section {
