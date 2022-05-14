@@ -21,9 +21,18 @@ h2 {
   font-weight: 500;
 }
 
-.element.accent3, .head3 {
-  color: white;
+.element.accent3 {
   background-color: #84d9d9;
+  color: white;
+  border: none;
+}
+
+h3.head3 {
+  color: white;
+}
+
+div.element.accent3 {
+  border-radius: 0 80px 80px 0;
 }
 
 h3 {
@@ -72,6 +81,7 @@ p.descriptionp {
   background-color: #023a40;
   color: white;
   padding: 30px;
+  border-bottom: 20px solid #f2b807;
 }
 
 a {
