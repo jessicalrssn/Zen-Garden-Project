@@ -1,19 +1,11 @@
 
-
-
-
-$accent1: #ea2e49;
-$text-dark: #333;
-$text-light: #fff;
-
 //colors
 $dark-blue: #023a40;
 $light-blue: #84d9d9;
 $yellow: #f2b807;
-$orange: #f29f05;
 $pink: #d95b5b;
 
 //fonts
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
-$body-font: 'Roboto', sans-serif;
-$heading-font: 'Playfair Display', serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+$body-font: 'Inter', sans-serif;
+

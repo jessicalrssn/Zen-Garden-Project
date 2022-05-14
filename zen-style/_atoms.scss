@@ -16,53 +16,79 @@
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 h2,
 h3 {
-  font-family: $heading-font;
+  font-family: $body-font;
   margin: 0;
 }
 h1 {
-  background: $yellow;
-  color: $dark-blue;
+  color: $yellow;
   display: inline-block;
   margin-bottom: 1em;
-  padding: 0.5em 1em;
 }
 h2 {
-  color: $dark-blue;
+  background-color: $dark-blue;
+  color: white;
   font-size: 6em;
   letter-spacing: 1px;
   line-height: 1em;
+  padding: 30px;
+  font-weight: 500;
+}
+.element.accent3, .head3 {
+  color: white;
+  background-color: $light-blue;
 }
 h3 {
   font-size: 2.25em;
   letter-spacing: 1px;
   line-height: 1em;
   padding: 0.5em 0 0.25em 0;
-  font-family: $heading-font;
+  color: $light-blue;
+  font-weight: 500;
 }
-.element.accent3{
-  color: white;
-}
+
 h4 {
   font-size: 1.5em;
-  font-weight: 200; /* Thin */
+  font-weight: 500; /* Thin */
   letter-spacing: 1px;
   line-height: 1em;
   margin: 0.5em 0;
+}
+.blue-head{
+  color: $light-blue;
+}
+.head2{
+  background-color: $dark-blue;
+  color: white;
 }
 
 p {
   @include set-font(1em, 1.5em);
   padding: 0.5em 0;
   margin: 0;
+  color: black;
+}
+p.accent3{
+  color: white;
+  background-color:#20686f;
+  padding: 20px;
+}
+p.descriptionp{
+  background-color:$dark-blue;
+  color: white;
+  padding: 30px;
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: $dark-blue;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }
 a:hover {
   background-color: $pink;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.link{
+  background-color: $dark-blue;
   color: white;
 }
